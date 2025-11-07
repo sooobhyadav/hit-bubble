@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 240, 253);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.ptop{
+    width:100%;
+    height:100px;
+    background-color: rgb(52, 143, 173);
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+}
+.elem{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.box{
+    padding:10px 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: rgb(32, 97, 119);
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.pbottom{
+    width:100%;
+    height:calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(52, 143, 173);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bubble:hover{
+    cursor:pointer;
+    background-color:  rgb(29, 114, 143);;
+}
